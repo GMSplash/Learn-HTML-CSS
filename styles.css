@@ -1,0 +1,85 @@
+body {
+  background-image: url("images/gold.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 1000;
+}
+.tagline {
+  text-align: center;
+  margin-top: -13px;
+  font-style: oblique;
+}
+ol {
+  font-family: cursive;
+}
+li {
+  font-size: 17px;
+}
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: black;
+}
+hr {
+  height: 3px;
+  margin-top: -10px;
+  background-color: white;
+  border-color: whitesmoke;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+  border: purple 1px solid;
+}
+.div1 {
+  display: flex;
+  border: 1px solid green;
+  width: 33%;
+  order: 2;
+  color: white;
+}
+.div2 {
+  display: flex;
+  border: 1px solid red;
+  width: 33%;
+  order: 3;
+  color: white;
+}
+.div3 {
+  display: flex;
+  border: 1px solid blue;
+  width: 33%;
+  order: 1;
+  color: white;
+}
+.top {
+  border: 1px solid yellow;
+}
+body:hover {
+  cursor: url("images/test.gif"), auto;
+}
+.input {
+  border: 1px pink solid;
+}
+fieldset {
+  width: 13%;
+}
