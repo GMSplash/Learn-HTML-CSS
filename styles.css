@@ -86,3 +86,17 @@ fieldset {
 h3 {
   color: salmon;
 }
+.goals {
+  border: 1px solid white;
+}
+.achievements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.inp {
+  color: yellow;
+}
+.done {
+  color: green;
+}
