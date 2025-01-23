@@ -8,7 +8,7 @@
       "type": "chrome",
       "request": "launch",
       "name": "Launch Chrome against localhost",
-      "url": "/C:UsersjwylieDesktop\test codeLearn-HTML-CSS",
+      "url": "file:///C:/Users/jwylie/Desktop/test%20code/Learn-HTML-CSS/Test.html",
       "webRoot": "${workspaceFolder}"
     }
   ]
